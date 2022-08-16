@@ -1,0 +1,20 @@
+package lab09;
+
+public class Square extends Shape{
+	protected int width ; 
+	
+	public Square (int w ) {
+		super.setColor("Orange");
+		this.width = w;
+	}
+	public double getArea() {
+		return this.width * this.width ;
+	}
+	public double getPerimeter() {
+		return 4 * this.width ;
+	}
+	public String toString() {
+		return super.toString() + " width : " + this.width + " area : " + (int)this.getArea() + " Perimeter: " + (int)this.getPerimeter() ; 
+	}
+	
+}
