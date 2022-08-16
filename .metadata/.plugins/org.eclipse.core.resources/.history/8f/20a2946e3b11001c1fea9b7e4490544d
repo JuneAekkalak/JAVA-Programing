@@ -1,0 +1,19 @@
+
+public class Salary implements Payable {
+	private int  amount ;
+	
+	public Salary (int n) {
+		this.amount = n ;
+	}
+	
+	public String toString() {
+		return "";
+	}
+	
+	public int pay() {
+		return 0;
+	}
+	public int getAmount() {
+		return this.amount ;
+	}
+}

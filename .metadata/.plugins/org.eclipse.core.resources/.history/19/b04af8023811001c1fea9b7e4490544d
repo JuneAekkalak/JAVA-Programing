@@ -1,0 +1,8 @@
+
+public class Salary {
+	private amount ;
+	
+	public String toString() {
+		return "";
+	}
+}

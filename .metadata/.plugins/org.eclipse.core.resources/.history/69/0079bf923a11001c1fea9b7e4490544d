@@ -1,0 +1,18 @@
+
+public class Invoice implements Payable {
+	private int amount ;
+	
+	public Invoice (int n) {
+		this.amount = n ;
+	}
+	public String toString() {
+		return "";
+	}
+	
+	public int pay() {
+		return 0 ;
+	}
+	public int amount() {
+		return 0 ;
+	}
+}

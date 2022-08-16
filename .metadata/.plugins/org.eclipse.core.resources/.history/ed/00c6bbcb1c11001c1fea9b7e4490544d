@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+public class Association {
+
+	public static void main(String[] args) {
+		ArrayList <Employees> ep = new ArrayList<Employees>();
+		ep.add(new Employees("Mia"));
+		ep.add(new Employees("Priya"));
+		
+		ArrayList<String> bankname = new ArrayList<String>();
+		bankname.add("Axis");
+		bankname.add("KrungThai");
+		
+		ArrayList <Bank> bank = new ArrayList<Bank>() ;
+		bank.add(new Bank(bankname,ep));
+		
+		for()
+		
+		
+		/*
+		ArrayList <Employees> bk = bank.getEmployee();
+		for(Employees emp : bk) {
+			System.out.println("Bank Name : "+bank.getBankName()+ " Empoyee Name : " +emp.getEmployeeName() );
+		}
+		//
+		for(Employees eps : bank.getEmployee()) {
+			System.out.println("Bank Name : "+bank.getBankName()+ " Empoyee Name : " +eps.getEmployeeName() );
+		}
+		System.out.println("Name of Employee : "+bk.get(0).getEmployeeName());
+		System.out.println("Name of Employee : "+ep.get(0).getEmployeeName());*/
+	}
+}

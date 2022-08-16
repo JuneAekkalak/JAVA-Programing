@@ -1,0 +1,8 @@
+
+public class CssRGBColor extends RGBColor {
+	private String cssname ;
+	
+	public CssRGBColor (String name , int r ) {
+		
+	}
+}

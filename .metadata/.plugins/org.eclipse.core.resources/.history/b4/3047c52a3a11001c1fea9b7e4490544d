@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class TestPayable {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter no of invoice : ");
+		int inv = input.nextInt();
+		System.out.println("Enter no of salary : ");
+		int salary = input.nextInt();
+		
+		Invoice[] invoice = new Invoice[inv];
+		for (int i = 0 ; i < invoice.length ; i++) {
+			System.out.print("Enter money invoice No :"+(i+1));
+			int money = input.nextInt();
+			new invoice(money)
+		}
+		Salary[] s = new Salary[salary];
+		for (int i = 0 ; i < s.length ; i++) {
+			System.out.print("Enter money salary No "+(i+1));
+			int money = input.nextInt();
+		}
+		
+	}
+
+}

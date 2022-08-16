@@ -1,0 +1,8 @@
+
+public class Invoice implements Payable {
+	private int amount ;
+	
+	public String toString() {
+		return "";
+	}
+}

@@ -1,0 +1,15 @@
+
+public class Salary implements Payable {
+	private int  amount = 0 ;
+	
+	public String toString() {
+		return "Summary of amount for salary = "+this.amount;
+	}
+	
+	public void pay(int amount) {
+		this.amount += amount;
+	}
+	public int getAmount() {
+		return this.amount ;
+	}
+}

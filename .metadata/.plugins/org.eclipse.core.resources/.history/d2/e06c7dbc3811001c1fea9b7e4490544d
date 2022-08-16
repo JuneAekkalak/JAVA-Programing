@@ -1,0 +1,8 @@
+
+public class Salary implements Payable {
+	private amount ;
+	
+	public String toString() {
+		return "";
+	}
+}

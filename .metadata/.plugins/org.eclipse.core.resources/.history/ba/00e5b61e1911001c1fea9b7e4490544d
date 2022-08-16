@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+public class Association {
+
+	public static void main(String[] args) {
+		ArrayList <Employees> ep = new ArrayList<Employees>();
+		ep.add(new Employees("Mia"));
+		ep.add(new Employees("Priya"));
+		
+		Bank bank = new Bank("Axis",ep);
+		
+		for(Employees emp : bank.getEmployee())) {
+			System.out.println("Bank Name : "+bank.getBankName()+ "Empoyee Name : " +emp );
+		}
+		
+
+	}
+
+}

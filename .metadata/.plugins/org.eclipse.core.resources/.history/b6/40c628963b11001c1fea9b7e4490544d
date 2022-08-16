@@ -1,0 +1,5 @@
+
+public interface Payable {
+	public int pay() ;
+	public int getAmount();
+}
